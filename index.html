@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <!--  Fonty google  -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+    <!--  Ikony  -->
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <!--  Style CSS  -->
+    <link href="style/styles.css" rel="stylesheet" type="text/css">
+    <title>Roll the dice game</title>
+</head>
+
+<body>
+    <div class="kontener clearfix">
+        <!--Gracz 1-->
+        <div class="panel-gracza-0 aktywny">
+            <div class="imie-gracza" id="imie-0">Gracz 1</div>
+            <div class="wynik-gracza" id="wynik-0">43</div>
+            <div class="akrualny-box-gracza">
+                <div class="aktualna-etykieta-gracza">Aktualny</div>
+                <div class="aktualny-wynik-gracza" id="aktualny-0">11</div>
+            </div>
+        </div>
+        <!--Gracz 2-->
+        <div class="panel-gracza-1">
+            <div class="imie-gracza" id="imie-1">Gracz 1</div>
+            <div class="wynik-gracza" id="wynik-1">72</div>
+            <div class="akrualny-box-gracza">
+                <div class="aktualna-etykieta-gracza">Aktualny</div>
+                <div class="aktualny-wynik-gracza" id="aktualny-1">0</div>
+            </div>
+        </div>
+        <!--Przyciski-->
+        <button class="btn-nowy"><i class="ion-ios-plus-outline">Nowa gra</i></button>
+        <button class="btn-nowy"><i class="ion-ios-loop">Rzuć kostką</i></button>
+        <button class="btn-nowy"><i class="ion-ios-download-outline">Hold</i></button>
+
+        <img src="images/dice-5.png" alt="Kostka" class="kostka">
+    </div>
+    <!--  Skrypty JS  -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
