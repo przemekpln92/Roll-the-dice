@@ -71,8 +71,13 @@ body {
     margin-bottom: 130px;
 }
 
-.aktywny { background-color: #f7f7f7; }
-.aktywny .imie-gracza { font-weight: 300; }
+.aktywny {
+    background-color: #f7f7f7;
+}
+
+.aktywny .imie-gracza {
+    font-weight: 300;
+}
 
 .aktywny .imie-gracza::after {
     content: "\2022";
@@ -81,7 +86,6 @@ body {
     color: #EB4D4D;
     top: -7px;
     right: 10px;
-    
 }
 
 .aktualny-box-gracza {
@@ -120,8 +124,15 @@ button {
     transition: background-color 0.3s, color 0.3s;
 }
 
-button:hover { font-weight: 600; }
-button:hover i { margin-right: 20px; }
+button:hover {
+    font-weight: 600;
+}
+
+button:hover i {
+    margin-right: 20px;
+}
+
+
 
 button:focus {
     outline: none;
@@ -138,9 +149,17 @@ i {
     transition: margin 0.3s;
 }
 
-.btn-nowy { top: 45px;}
-.btn-rzuc { top: 403px;}
-.btn-wstrzymaj { top: 467px;}
+.btn-nowy {
+    top: 45px;
+}
+
+.btn-rzuc {
+    top: 403px;
+}
+
+.btn-zachowaj {
+    top: 467px;
+}
 
 .kostka {
     position: absolute;
@@ -151,5 +170,11 @@ i {
     box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
 }
 
-.wygrany { background-color: #f7f7f7; }
-.wygrany .imie-gracza { font-weight: 300; color: #EB4D4D; }
+.wygrany {
+    background-color: #f7f7f7;
+}
+
+.wygrany .imie-gracza {
+    font-weight: 300;
+    color: #EB4D4D;
+}
