@@ -3,8 +3,8 @@
 - W grze bierze udział dwóch graczy, gra odbywa się w rundach
 - Gracz podczas sowjej rundy rzuca kostką dowolną ilość razy i każdy rzut dodawany jest do wyniku rundy
 - JEDNAK, jeżeli gracz wyrzuci kostkę z nr 1 wszystkie uzbierane punkty w danej rundzie przepadają oraz następuje kolej drugiego gracza
-- Gracz może wybrać opcję "ZACHOWAJ" co oznacza, iż obecny wynik rundy zostanie dodany do głownej punktacji po czym następuję kolej następnego gracza
-- Gracz który jako pierwszy zdobędzie 100pkt w gównej punktacji wygrywa grę
+- Gracz może wybrać opcję "ZACHOWAJ" co oznacza, iż obecny wynik rundy zostanie dodany do głownej punktacji po czym następuje kolej drugiego gracza
+- Gracz który jako pierwszy zdobędzie 100pkt w głównej punktacji wygrywa grę
 
 ENJOY ;)
 
